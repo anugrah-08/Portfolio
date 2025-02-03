@@ -1,0 +1,61 @@
+.certificate {
+    width: 100vw;
+    /* max-width: 80%; */
+    margin: 1.5rem;
+    text-align: center;
+}
+.certificate h2.head{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+.certificate .certificate-block {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.certificate-list {
+    width: 28rem;
+    /* height: 15rem; */
+    border-radius: .5rem;
+    background: rgb(50,50,50);
+    padding: 1rem 1.8rem;
+}
+.certificate-list h4{
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+ .certificate-list .head1{
+    font-weight: 300;
+ }
+ .certificate-list span{
+    font-weight: 600;
+ }
+ .certificate-list button {
+    /* margin-bottom: 1.5rem; */
+    margin-top: 1rem;
+    border: none;
+    background: white;
+    margin: 0 1rem;
+    padding: .6rem .75rem;
+    border-radius: 3rem ;
+    cursor: pointer;
+}
+.certificate-list button i {
+    margin-right: .3rem;
+}
+
+@media screen and (max-width:460px) {
+    .certificate .certificate-block {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
