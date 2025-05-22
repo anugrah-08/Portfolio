@@ -7,8 +7,8 @@ const Intro = () => {
 
   const handleButtonClick = () => {
     // Path to your PDF file in the public folder
-    const resumePath = "/resume.pdf";
-    window.open(resumePath, "_blank"); // Opens the PDF in a new tab
+    const resumePath = `${process.env.PUBLIC_URL}/resume.pdf`;
+  window.open(resumePath, "_blank");// Opens the PDF in a new tab
   };
 
 
