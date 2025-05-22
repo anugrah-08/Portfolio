@@ -12,8 +12,8 @@ const Certificate = () => {
 
       const handleButtonClick2 = () => {
         // Path to your PDF file in the public folder
-        const resumePath = `${process.env.PUBLIC_URL}/Python-Fullstack.pdf`;
-        window.open(resumePath, "_blank"); // Opens the PDF in a new tab
+        const resumePath1 = `${process.env.PUBLIC_URL}/Python-Fullstack.pdf`;
+        window.open(resumePath1, "_blank"); // Opens the PDF in a new tab
       };
 
   return (
