@@ -41,3 +41,15 @@
     font-size: .92rem;
     font-weight: 500;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+}
+.social .icons {
+    color: white;
+    font-size: 2rem;
+}
